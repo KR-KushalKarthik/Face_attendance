@@ -1,50 +1,42 @@
-# Welcome to your Face Attendance app 👋
+# 🎯 Face Attendance App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A full-stack Face Recognition Attendance System built using modern web technologies.
 
-## Get started
+This application captures a user's face, verifies identity using face recognition, and automatically marks attendance with timestamp records.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🚀 Features
 
-2. Start the app
+- 📸 Face Capture using Camera
+- 🧠 Face Recognition Integration
+- 🗂 Attendance Logging
+- 📅 Date & Time Based Records
+- 🔐 Secure Backend API
+- ☁ Google Cloud Integration (without exposing secret keys)
+- 📊 Clean UI Interface
+- 📁 CSV/Database Storage
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🛠 Tech Stack
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Frontend
+- React Native / Expo
+- TypeScript
+- Camera API
+- Custom UI Components
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Backend
+- Python (Flask)
+- Face Recognition Library
+- Google Cloud Vision / Firebase (if used)
+- REST APIs
 
-## Get a fresh project
+### Version Control
+- Git & GitHub
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+## 📂 Project Structure
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
